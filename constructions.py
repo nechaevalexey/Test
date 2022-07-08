@@ -1,7 +1,7 @@
-age = int (input ("Введите возраст"))
-if (age >= 25):
-    print ("Тебе можно входить одному")
-elif (age >= 18) and (age <= 25):
-    print ("Тебе можно с мамой")
+oleg = str (input ("Выберите Олегу героя: "))
+andrey = str (input ("Выберите Андрею героя: "))
+
+if (oleg == "мипо") and (andrey == "энигма"):
+    print ("Въебано")
 else:
-    print ("Тебе сюда нельзя")
+    print ("Есть шансы")
